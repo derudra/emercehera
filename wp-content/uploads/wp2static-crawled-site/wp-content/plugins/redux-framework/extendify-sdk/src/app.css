@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.extendify {--tw-ring-offset-width: 0px;--tw-ring-offset-color: transparent;--tw-ring-color: var(--wp-admin-theme-color);}
+.extendify *, .extendify *:after, .extendify *:before {box-sizing: border-box;border: 0 solid #e5e7eb;}
+.extendify .button-focus {}
+.extendify select.button-focus, .extendify input.button-focus {}
+div.extendify button.extendify-skip-to-sr-link:focus {}
+.button-extendify-main {}
+#extendify-search-input:focus ~ svg, #extendify-search-input:not(:placeholder-shown) ~ svg {}
+#extendify-search-input::-webkit-textfield-decoration-container {}
+.extendify .components-panel__body > .components-panel__body-title {border-bottom: 1px solid #e0e0e0 !important;}
+.extendify .components-modal__header {}
+.block-editor-block-preview__content
+    .block-editor-block-list__layout.is-root-container
+    > .ext {}
+.block-editor-block-list__layout.is-root-container
+    .ext.block-editor-block-list__block {}
+.block-editor-block-preview__content-iframe
+    .block-editor-block-list__layout.is-root-container
+    .ext.block-editor-block-list__block {}
+.extendify .block-editor-block-preview__container {animation: extendifyOpacityIn 200ms cubic-bezier(.694,0,.335,1) forwards 0ms;}
+.extendify .is-root-container > [data-block], .extendify .is-root-container > [data-align="full"], .extendify .is-root-container > [data-align="full"] > .wp-block {}
+.editor-styles-wrapper:not(.block-editor-writing-flow)
+    > .is-root-container
+    :where(.wp-block)[data-align="full"] {}
+@keyframes extendifyOpacityIn {0% {opacity: 0;}
+	100% {opacity: 1;}}
+.extendify .with-light-shadow::after {content: "";}
+.extendify .with-light-shadow:hover::after {}
+@supports not (
+    (-webkit-backdrop-filter: saturate(2) blur(24px)) or
+        (backdrop-filter: saturate(2) blur(24px))
+) {div.extendify .bg-extendify-transparent-white {}}
+.components-panel__body.ext-type-control .components-panel__body-toggle {}
+.components-panel__body.ext-type-control .components-panel__body-title {}
+.components-panel__body.ext-type-control
+    .components-panel__body-title
+    .components-button {}
+.components-panel__body.ext-type-control
+    .components-button
+    .components-panel__arrow {}
+.extendify .animate-pulse {animation: extendifyPulse 3s cubic-bezier(.4,0,.6,1) infinite;}
+@keyframes extendifyPulse {0%, 100% {opacity: 1;}
+	50% {opacity: .5;}}
+.is-template--inactive::before, .is-template--in-review::before {content: "";}
+.is-template--inactive::before {border-color: #fdeab6;}
+.extendify-tooltip-default:not(.is-without-arrow)[data-y-axis="bottom"]::after {border-bottom-color: #1e1e1e;}
+.extendify-tooltip-default:not(.is-without-arrow)::before {}
+.extendify-tooltip-default:not(.is-without-arrow) .components-popover__content {min-width: 250px;}
+.extendify-bottom-arrow::after {content: "";bottom: -15px;border-top-color: #1e1e1e !important;}
