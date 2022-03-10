@@ -1,0 +1,4 @@
+.is-style-inline-list {}
+.is-style-inline-list li {}
+.is-style-inline-list li:first-child {}
+.is-style-inline-list li:last-child {}
