@@ -1,0 +1,4 @@
+.redux-templates-import-button-group {text-align: center;}
+.redux-templates-import-button-group.disabled span a {cursor: default;opacity: .8;}
+.redux-templates-single-section-item {margin-bottom: 15px;}
+.redux-templates-single-section-item .redux-templates-import-button-group {margin-top: 10%;}
