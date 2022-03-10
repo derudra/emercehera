@@ -1,0 +1,15 @@
+.has-foreground-color {color: var(--wp--preset--color--foreground,#000) !important;}
+.has-foreground-background-color {background-color: var(--wp--preset--color--foreground,#000) !important;}
+.has-background-color {color: var(--wp--preset--color--background,#fff) !important;}
+.has-background-background-color {background-color: var(--wp--preset--color--background,#fff) !important;}
+.has-primary-color {color: var(--wp--preset--color--primary,#4b5563) !important;}
+.has-primary-background-color {background-color: var(--wp--preset--color--primary,#4b5563) !important;}
+.has-secondary-color {color: var(--wp--preset--color--secondary,#9ca3af) !important;}
+.has-secondary-background-color {background-color: var(--wp--preset--color--secondary,#9ca3af) !important;}
+.ext.has-text-color p, .ext.has-text-color h1, .ext.has-text-color h2, .ext.has-text-color h3, .ext.has-text-color h4, .ext.has-text-color h5, .ext.has-text-color h6 {color: currentColor;}
+.has-white-color {color: var(--wp--preset--color--white,#fff) !important;}
+.has-black-color {color: var(--wp--preset--color--black,#000) !important;}
+.has-ext-foreground-background-color {background-color: var(--wp--preset--color--foreground,var(--wp--preset--color--black,#000)) !important;}
+.has-ext-primary-background-color {background-color: var(--wp--preset--color--primary,var(--wp--preset--color--cyan-bluish-gray,#000)) !important;}
+.wp-block-button__link.has-black-background-color {border-color: var(--wp--preset--color--black,#000);}
+.wp-block-button__link.has-white-background-color {border-color: var(--wp--preset--color--white,#fff);}
