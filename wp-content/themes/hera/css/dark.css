@@ -1,0 +1,22 @@
+body {background-color: #323232;color: #a6a6a6;}
+h1, h2, h3, h4, h5, h6 {color: #fff;}
+.contact-det p a {color: #a6a6a6;}
+#ajax-form textarea, #ajax-form input {border-bottom: 2px solid #fff;color: #ccc;}
+#button-con button, .cl-effect.dark a {border: 2px solid #fff;color: #fff;}
+#button-con button span, .cl-effect.dark a span {color: #fff;}
+.plan-single {background-color: #292929;}
+.portfolio-box .mask {background-color: rgba(10,10,10,.7);background-image: url("../images/cross.png");}
+.portfolio-box:hover h4 {border: 1px solid #fff;color: #fff;}
+.blog-post {background-color: #292929;color: #a6a6a6;}
+#filter li a, .blog-post h6 a, .widget_categories ul li a, .widget_archive ul li a, .widget_meta ul li a, .search_form input:focus, .search_form input, .blog_post .meta_data span:hover, .comment-metadata time {color: #a6a6a6;}
+.team article {background: #323232;}
+.team .list-social li {background-color: #fff;}
+.blog_post .meta_data span, .home-blog h5 a, .blog_post .meta_data span a, .comment-author .fn {color: #a6a6a6;}
+.expander-wrap .cls-btn .close {color: #fff;}
+.top-blog {background-color: #323232;}
+#footer, #footer .back-top, .comment-body .reply, .button, button, input[type="submit"], input[type="reset"], input[type="button"] {background: #292929;}
+#footer .back-top:hover {background-color: #fff;}
+.widget_recent_entries ul li:hover {background-color: rgba(220,220,220,.4);}
+.widget_recent_entries ul li span, .tag11 a, .widget_tag_cloud .tagcloud a {color: #ccc;}
+.widget_recent_entries ul li a {color: #f1f1f1;}
+#cd-google-map address {background-color: rgba(0,0,0,.8);}
