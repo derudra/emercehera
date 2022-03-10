@@ -1,0 +1,4 @@
+.rwmb-field .mceIframeContainer {background: #fff;}
+.rwmb-wysiwyg-clone {padding-top: 20px;}
+.block-editor .wp-editor-wrap {box-sizing: content-box;}
+div.mce-fullscreen {z-index: 999999;}
