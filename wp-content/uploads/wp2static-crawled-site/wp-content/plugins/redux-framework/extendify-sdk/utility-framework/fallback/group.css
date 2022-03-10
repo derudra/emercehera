@@ -1,0 +1,12 @@
+.ext.wp-block-group > *:last-child {}
+.ext .wp-block-group__inner-container {}
+.ext.has-background {}
+.ext *[class*="inner-container"] > .alignwide *[class*="inner-container"], .ext
+    *[class*="inner-container"]
+    > [data-align="wide"]
+    *[class*="inner-container"] {max-width: var(--responsive--alignwide-width,120rem);}
+.ext *[class*="inner-container"] > .alignwide *[class*="inner-container"] > *, .ext
+    *[class*="inner-container"]
+    > [data-align="wide"]
+    *[class*="inner-container"]
+    > * {}
